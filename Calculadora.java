@@ -19,8 +19,11 @@ public class Calculadora{
        System.out.println("digite 2 Para Subtrair");
        System.out.println("digite 3 Para Multiplicar");
        System.out.println("digite 4 Para Dividir");
+       System.out.println("digite 5 Para Sair");
        operacao = scan.nextInt();
 
+
+       
        switch(operacao){
            case 1:
                 soma = n1 + n2;
@@ -42,6 +45,9 @@ public class Calculadora{
                 divisao = n1 / n2;
                  System.out.println("divisao =" + divisao);
             }
+            case 5:
+            System.exit(0);
+
             break;
        }
 
